@@ -179,8 +179,6 @@
     position: absolute;
     top: 2130px;
     right: 900px;
-    /* left: 730px; */
-    /* bottom: 420px; */
 }
 
 .info_contents {
@@ -195,10 +193,31 @@
 .info_content_list {
     margin-top: 20px;
     font-size: 22px;
+    color: var(--opacity-color-black);
 }
 
 .list {
     margin-bottom: 20px;
 }
 
+.latest_deals_section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
+.latest_deals_content {
+    text-align: center;
+}
+
+.latest_deals {
+    font-size: 50px;
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 16px;
+}
+
+.deals_about {
+    /* text-align: center; */
+    font-size: 22px;
+    color: var(--opacity-color-black);
+    /* width: 888px; */
+}
