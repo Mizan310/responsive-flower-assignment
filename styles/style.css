@@ -437,17 +437,31 @@
         width: 100%;
     }
 
-    .details {
-        width: auto;
-    }
-
+    
     .head_line,
     .details {
         text-align: left;
     }
 
+    .head_line{ 
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .details {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .our_plants {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
     .details_our_plants {
+        padding: 0 20px;
         width: 100%;
+        font-size: 14px;
     }
 
     .image_two {
@@ -463,6 +477,10 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         /* gap: 20px; */
+    }
+
+    .flower_price, .description, .primary_btn {
+        font-size: 16px;
     }
 
     .primary_btn {
