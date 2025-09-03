@@ -529,6 +529,17 @@
         height: 200px;
     }
 
+    .image_and_shop {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .image_3_offer, .image_offer {
+        font-size: 20px;
+        font-weight: var(--font-weight-bold);
+    }
+
     .image_one,
     .info_contents {
         width: 100%;
