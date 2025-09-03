@@ -459,6 +459,7 @@
     }
 
     .cards {
+        margin: 0 20px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         /* gap: 20px; */
@@ -468,9 +469,18 @@
         width: 100%;
     }
 
+    .flower_info_section {
+        margin: 40px auto 110px;
+        width: 100%;
+        padding: 0 20px;
+    }
     .flower_infos {
         flex-direction: column;
         text-align: left;
+    }
+
+    .info_content_list {
+        font-size: 14px;
     }
 
     .plant_lover {
@@ -482,10 +492,11 @@
     .latest_deals_content,
     .deals_about {
         text-align: center;
+        font-size: 14px;
     }
 
     .offer_section {
-        margin: 80px auto;
+        margin: 80px 20px;
     }
 
     .offer_images {
