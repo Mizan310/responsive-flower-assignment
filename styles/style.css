@@ -370,12 +370,13 @@
 
 .lists {
     padding-bottom: 32px;
-
+    margin-right: 110px;
 }
 
 .list_one_li {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     list-style: none;
-
 }
 
 .list_anc {
@@ -426,6 +427,10 @@
         width: 100%;
     }
 
+    .image_two {
+        display: none;
+    }
+
     .cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -468,10 +473,12 @@
         font-weight: var(--font-weight-bold);
         color: white;
     }
+
     #write_email {
         width: 220px;
         height: 50px;
     }
+
     .primary_btn_2 {
         width: 103px;
     }
@@ -480,5 +487,11 @@
         margin-left: 40px;
         flex-direction: column;
         text-align: left;
+    }
+
+    .list_one_li {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
     }
 }
